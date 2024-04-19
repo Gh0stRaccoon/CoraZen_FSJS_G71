@@ -4,3 +4,6 @@
     background-size: cover;
     height: 500px;
 }
+.card-img-top {
+    min-height: 20em;
+}
