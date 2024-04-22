@@ -33,17 +33,20 @@ body {
   display: inline-grid;
 }
 
-
 .quien-es-row {
   display: flex;
   text-align: center;
 }
 
-
-
 /* Mis trabajos */
 
-span {
+.bg-info {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity));
+  background-color: rgb(28, 13, 185) !important;
+} 
+
+.Span {
   font-size: 1.420rem;
   display: block;
   font-family: monospace;
@@ -74,6 +77,12 @@ span {
   background-size: cover;
   background-position: center;
 }
+
+#btn-proyectos {
+  display: flex;
+  justify-content: center;
+}
+
 
 /* Contacto */
 
