@@ -4,3 +4,13 @@
     background-size: cover;
     height: 500px;
 }
+
+#Fork {
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    align-items: center;
+}
+
+#TituloFork {
+    padding: 0px 25px 0px 25px;
+}
