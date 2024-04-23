@@ -1,7 +1,7 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 body {
   font-family: "Raleway", sans-serif;
@@ -16,17 +16,20 @@ body {
   margin-left: 20px;
 }
 
+#menu {
+  padding-right: 15px;
+}
+
 #Hero-Section {
   background-image: url("../img/bg-hero2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-  width: 100vw;
   height: 100vh;
 }
 
 .container h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 #Container_Frase {
@@ -49,7 +52,7 @@ body {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity));
   background-color: rgb(28, 13, 185) !important;
-} 
+}
 
 .Span {
   font-size: 1.420rem;
